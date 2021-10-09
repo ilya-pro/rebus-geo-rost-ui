@@ -1,0 +1,22 @@
+.App {
+}
+
+/*
+  For resizable animation
+  prefers-reduced-motion: no-preference Indicates that the user has made no preference known to the system
+  Windows: Settings -> Ease of Access -> Display -> Show animations in Windows
+ */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
